@@ -1,0 +1,155 @@
+/* custom font */
+@font-face {
+    font-family: 'Avanue' ;
+    src: url(FONT/Avenue.ttf);
+
+}
+
+/* custom font */
+@font-face {
+    font-family: 'Minecraft';
+    src: url(FONT/minecraft.ttf);
+}
+
+/* Global Style */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    line-height: 2.3;
+    color: floralwhite;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    /* Header */
+header {
+    background-color:   rgb(43, 37, 37);
+    color: rgb(96, 76, 74);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-family:'Avanue', sans-serif;
+}
+
+header p {
+    font-style: ;
+    margin-top: 5px;
+    font-family: 'Minecraft';
+}
+
+nav a {
+    color: rgb(243, 189, 182);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Promo Section */
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: darkred;
+}
+
+li {
+    list-style: inside;
+}
+
+/* Menu Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 2px solid #fffefe;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Form Pemesanan */
+form {
+    background-color: #626262;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input [text="text"]
+form input [text="email"]
+form select,
+form textarea {
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input [type="checkbox"]
+form input [type=:radio:] {
+    margin-right: 5px;
+}
+
+form button {
+    background-color: rgb(193, 102, 93);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7e7e7e;
+}
+
+/* kontak */
+#kontak p {
+    border:  2px solid #ebebeb;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: max-content;
+    background-color: brown;
+}
+
+/* Footer */
+footer {
+    background-color: #acacac;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

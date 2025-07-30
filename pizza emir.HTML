@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Bang Emir</title>
+    <!-- fav icon -->
+        <link rel="shortcut icon" href="IMAGE/IconPizza.jpg" type="image/x-icon">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="style.CSS">
+
+</head>
+<body>
+    <div class="container">
+    <style>
+        body {background-color: rgb(210, 66, 66);}
+        
+    </style>
+    <!-- Header -->
+    <header>
+        <h1 style="color: brown;">Form Pesanan Pizza</h1>
+        <p style="color: azure;">Pizza Lezat, Cepat yang akan di hadir Untuk Menemani <b style="color:red">keluarga anda</b>~🍕</p>
+        <nav>
+                <a href="#menu">Lihat Manu</a>
+                <a href="#pesan">Pesan Sekarang</a>
+                <a href="#kontak">Kontak Kami</a>
+        </nav>
+        <hr>
+
+    </header>
+
+    <!-- Promo Section -->
+    <section>
+            <h2 style="color: floralwhite;">Promo</h2>
+            <img style="margin-right: 20px;" src="IMAGE/PosterPromo.png" alt="Promo Pizza" width="300">
+            <img style="margin-left: 20px;" src="IMAGE/Poster.png" alt="PosterPromo" width="300">
+            <p><mark>Diskon 50%</mark> Ayoo kapan lagi bisa beli Dua gratis Satu </p>
+            <ul>
+                <li>Rotinya Empuk</li>
+                <li>Harganya Terjangkau</li>
+                <li>Delivery cepat</li>
+            </ul>
+    </section>
+
+    <!-- Section: Menu -->
+     <section id="menu">
+            <h2 style="color:floralwhite;">Menu Pizza</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th style="background-color: rgb(78, 71, 71);">Nama</th>
+                        <th style="background-color: rgb(78, 71, 71);">Ukuran</th>
+                        <th style="background-color: rgb(78, 71, 71)">Harga</th>
+                    </tr>   
+                </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: rgb(159, 159, 159);">Peppar Roni Pizza</td>
+                    <td style="background-color: rgb(159, 159, 159);">Kecil</td>
+                    <td style="background-color: rgb(159, 159, 159);">20.000</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(159, 159, 159);">Vegetarian Pizza</td>
+                    <td style="background-color: rgb(159, 159, 159);">Sedang</td>
+                    <td style="background-color: rgb(159, 159, 159);">45.000</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(159, 159, 159);">Meat Ball Pizza</td>
+                    <td style="background-color: rgb(159, 159, 159);">Besar</td>
+                    <td style="background-color: rgb(159, 159, 159);">50.000</td>
+                </tr>
+            </tbody>
+            </table>
+     </section>
+        
+    <!-- Form pemesanan -->
+     <section id="pesan">
+        <h2 style="color: floralwhite;">Formulir pemesanan</h2>
+    <!-- Form: action -->
+        <form action=""></form>
+                <form action="#" method="post">
+                    <label for="nama">Nama anda</label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap"><br><br>
+
+                    <Label for="email">email@gmail.com</Label><br>
+                    <input type="text" id="email" placeholder="Masukkan Gmail"><br><br>
+                    
+                    <label for="ukuran">Ukuran Pizza</label><br>
+                    <select name="ukuran" id="ukuran">
+                        <option value="kecil">kecil</option>
+                        <option value="sedang">sedang</option>
+                        <option value="besar">besar</option>
+                    </select><br><br>
+
+                    <label>Pilih Toping</label><br>
+                    <input type="checkbox" name="toping" value="keju"> keju
+                    <input type="checkbox" name="toping" value="jamur"> jamur
+                    <input type="checkbox" name="toping" value="Daging"> Daging <br><br>
+                    
+                    <label>Pilih Jenis Pizza</label><br>
+                    <input type="radio" name="jenis" value="Peppar Roni Pizza"> Papper Roni Pizza
+                    <input type="radio" name="jenis" value="Vegetarian Pizza"> Vegetarian Pizza
+                    <input type="radio" name="jenis" value="Meat ball Pizza"> Meat Ball Pizza<br><br>
+
+                    <label for="catatan">Catatan tambahan</label><br>
+                    <textarea name="" id="catatan" rows="4" cols="30" placeholder="contoh: tanpa sambal."></textarea><br><br>
+                    
+                    <button type="submit">Pesan Sekarang</button>
+                </form>
+        <!-- Section: Kontak -->
+        <section id="kontak">
+            <h2 style="color: floralwhite;">Kontak kami</h2>
+            <p>📍 Jl. Pizza No.1, Bogor</p>
+            <p>📞 <b>0853-7411-9708</b></p>
+            <p>Email: <a href="mailto:info@pizzamantap.com">info@pizzamantap.com</a></p>
+        </section>
+        </form>
+
+        <!-- Footer -->
+         <footer>
+            <hr>
+            <p><small>&copy; 2025 Pizza Mantap. All Right reserved.</small></p>
+         </footer>
+
+     </section>
+</body>
+</html>
